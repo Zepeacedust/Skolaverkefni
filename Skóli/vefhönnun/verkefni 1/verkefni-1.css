@@ -1,0 +1,52 @@
+body {
+    background-image: url(index.jpeg);
+    color: blue;
+    text-shadow:
+    -1px -1px 0 #888,
+    1px -1px 0 #888,
+    -1px 1px 0 #888,
+    1px 1px 0 #888;  
+    width: 50em
+}
+h1 {
+    color: #f0f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+p {
+    color: #00ffff;
+    font-size: 15
+}
+ul {
+    color: salmon 
+}
+ol {
+    font-family: 'Courier New', Courier, monospace
+}
+strong {
+    font-size: 150%;
+    color: #ff0000;
+}
+
+em {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
+sub,sup {
+    color: #9000F0
+}
+.ELVIS {
+    color: blue;
+}
+a:visited{
+    color: white
+}
+a:hover {
+    color: #ff0000
+}
+a:active {
+    font-size: 75%
+}
+.lag {
+    margin-left: 100px
+}
