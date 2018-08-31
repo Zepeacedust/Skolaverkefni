@@ -1,0 +1,23 @@
+body {
+    background-color: beige
+}
+.heiti {
+    text-align: center
+}
+.einfaldur {
+    border: 2px solid red;
+}
+.þrefaldur {
+    color: blue;
+    border: 2px solid red;
+    margin: 50px
+}
+.tvöfaldur {
+    border: 5px solid salmon;
+}
+.fjórfaldur {
+    padding: 25px;
+    border: 5px dotted orange;
+    margin: 25px;
+    color: green
+}
