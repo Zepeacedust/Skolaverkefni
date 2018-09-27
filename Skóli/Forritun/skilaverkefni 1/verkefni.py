@@ -1,10 +1,10 @@
 #Arnór friðriksson 29 ágúst
-nafn = input("hvað heitir þú? ")
-print("Velkomin í áfangann FOR1A3U %s. Þetta verður skemmtileg önn, ég hlakka til að læra forritun." % (nafn)) # biðja um og prenta nafn notandans
+nafn = input("hvað heitir þú? ")# biðja um string sem er vistað í breitu kallaða nafn
+print("Velkomin í áfangann FOR1A3U %s. Þetta verður skemmtileg önn, ég hlakka til að læra forritun." % (nafn)) # prenta nafn notandans inni í string sme er
 
 
-tala1 = float(input("veldu kommutölu með 3 aukastögum: "))
-print("þú valdir %i" % (round(tala1, 1)))
+tala1 = float(input("veldu kommutölu með 3 aukastögum: "))#biðja um tölu og vista hana
+print("þú valdir %f" % (round(tala1, 1)))# taka vistuðu töluna og prenta hana með einum aukastaf
 
 
 tala1 = int(input("veldu fyrri heiltölu: "))
@@ -16,7 +16,7 @@ print(tala1 - tala2)#mínusa tölu 2 við tölu 1
 tala1 = int(input("sláðu inn hæð kassa: "))
 tala2 = int(input("sláðu inn breidd kassa: "))
 tala3 = int(input("sláðu inn lengd kassa: "))
-print("rúmmál kassans er %i" % (tala1 * tala2 * tala3))# prenta og margfalda tölurnar þrjár
+print("rúmmál kassans er %i" % ((tala1 * tala2 * tala3) / 3))# prenta og margfalda tölurnar þrjár
 
 
 notenda_aldur = int(input("hversu gamall/gömul ert þú? "))

@@ -1,0 +1,69 @@
+div{
+    border: 2px black solid;
+    padding: 5px;
+}
+
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.twoxtwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-family: serif sans-serif;
+}
+.gucchi {
+    font-family: sans-serif serif !important;
+}
+.trebuchet {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.Arial_black {
+    font-family: arial;
+    font-weight: bold;
+
+}
+.left {
+    text-align: right;
+}
+.head {
+    background:linear-gradient(blue, beige);
+}
+.smoltext {
+    line-height: 1.6em;
+    font-size: 0.6em;
+}
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: aqua;
+}
+em {
+    color: brown;
+}
+.Roboto{
+    font-family: 'Roboto Mono', monospace;
+}

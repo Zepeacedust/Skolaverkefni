@@ -1,0 +1,63 @@
+body {
+    background-color: beige
+}
+.heiti {
+    text-align: center
+}
+.einfaldur {
+    border: 2px solid red;
+}
+.trefaldur {
+    color: blue;
+    border: 2px solid red;
+    margin: 50px
+}
+.tvofaldur {
+    border: 5px solid salmon;
+}
+.fjorfaldur {
+    padding: 25px;
+    border: 5px dotted orange;
+    margin: 25px;
+    color: green;
+}
+.block_list {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px green dotted;
+
+}
+.inline_list {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 5px solid blue
+}
+.inline_block {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 5px blanchedalmond dotted
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dalkur1_3 {
+    float:left;
+    width:33%;
+    border: 2px green solid;
+}
+.dalkur1_2 {
+    float: left;
+    width: 49%;
+    border: 2px blue solid;
+}

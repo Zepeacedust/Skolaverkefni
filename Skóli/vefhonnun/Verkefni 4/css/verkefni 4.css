@@ -1,0 +1,22 @@
+header {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                        "margin top top name margin"
+                        "margin title title name margin";
+}
+.adal {
+    background: linear-gradient(white aquamarine);
+}
+.nafn {
+    grid-area: name;
+}
+.title{
+    grid-area: title;
+}
+
+
+
+
+

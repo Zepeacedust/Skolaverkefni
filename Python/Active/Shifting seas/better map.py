@@ -23,9 +23,9 @@ def tiledata(value):#assigna values að tiles eftir input
 
 
 map = []#generatea mapdata layer by layer
-for y in range(100):
+for y in range(10):
     current_layer = []
-    for x in range(100):
+    for x in range(10):
         current_layer.append(tiledata((randint(0, 9))))
     map.append(current_layer)
 

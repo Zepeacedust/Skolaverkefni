@@ -1,0 +1,65 @@
+.valmynd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur"
+}
+a {
+    color: azure
+}
+
+.top {
+   grid-area: haus;
+   background: linear-gradient(blue, green);
+   border: 2px beige solid;
+   text-align: center;
+}
+.hlekkur1 {
+    background: linear-gradient(green, black);
+    grid-area: hlekkur1;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 50px
+}
+.hlekkur2 {
+    background: linear-gradient(green, black);
+    grid-area: hlekkur2;
+    font-family: 'Roboto Mono', monospace
+}
+.hlekkur3 {
+    background: linear-gradient(green, black);
+    grid-area: hlekkur3;
+    font-family: 'Roboto Mono', monospace
+}
+.hlekkur4 {
+    background: linear-gradient(green, black);
+    grid-area: hlekkur4;
+    font-family: 'Roboto Mono', monospace
+}
+.hlekkur5 {
+    background: linear-gradient(green, black);
+    grid-area: hlekkur5;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 50px;
+}
+.vinstri{
+    grid-area: vinstri;
+    background-color: darkblue;
+}
+.midja {
+    background-color: blue;
+    grid-area: midja; 
+}
+.haegri{
+    grid-area: haegri;
+    background-color: cornflowerblue;
+}
+h1 {
+    text-align: center;
+}
+.fotur{
+    grid-area: fotur;
+    background-color: black
+}
